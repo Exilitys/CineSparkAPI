@@ -237,7 +237,7 @@ app = FastAPI()
 # Allow local frontend to access backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://cinesparkai.online/"],
+    allow_origins=["https://cinesparkai.online"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
